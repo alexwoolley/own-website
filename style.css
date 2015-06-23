@@ -1,0 +1,109 @@
+/*FONTS, LINE HEIGHTS ETC*/
+/*Default font is Merriweather Serif*/
+body {
+	font-family: 'Merriweather', serif;
+	background-color: #ffffff;
+	background-image: url(black-thread.png);
+}
+
+.all-content {
+	background-color: #fafafa;
+	padding: 20px;
+}
+p {
+	line-height: 200%;
+	margin-bottom: 30px;
+}
+
+.main-content p {
+	font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6, nav li {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+/*END FONTS*/
+
+/*LINKS*/
+a {
+	border-bottom: dotted #BF0000 1px;
+}
+/* unvisited link */
+a:link {
+    color: #BF0000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #BF0000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7F0000;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #7F0000;
+    text-decoration: none;
+}
+/*special links*/
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	color: #333;
+	border-bottom: none;
+	text-decoration: none;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+	border-bottom: none;
+	text-decoration: none;
+}
+/*END LINKS*/
+ body {
+ 	padding-top: 50px;
+ }
+
+/*NAVBAR*/
+#main-menu {
+	padding-left: 0;
+}
+#main-menu li {
+	list-style-type: none;
+	display: inline;
+	padding: 20px 20px 20px 0;
+	/*border: 1px solid black;*/
+}
+/*END NAVBAR*/
+
+
+/*MASTHEAD*/
+.masthead {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3.5em;
+	margin-bottom: 40px;
+}
+/*END MASTHEAD*/
+/*SECONDAY HEADING*/
+.secondary-heading {
+	margin: 0 0 20px 0;
+}
+/*END SECONDARY HEADING*/
+
+
+/*FOOTER*/
+footer {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+/*END FOOTER
+
+
+/*GENERALLY USEFUL STYLE RULES*/
+/*STANDARD BOTTOM BORDER*/
+.standard-bottom-border {
+	border-bottom: solid #e7e7e7 1px;
+}
